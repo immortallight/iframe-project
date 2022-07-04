@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
+}
+section{
+    min-height: 100vh;
+    position: relative;
+}
+.map{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    position: relative;
+    padding: 8rem 2rem;
+    display: flex;
+    justify-content: right;
+    z-index: 10;
+}
+.form{
+    background-color: white;
+    padding: 2rem;
+    border-radius: round;
+    width: 100%;
+    margin-left: auto;
+    border-radius: 1rem;
+    box-shadow: rgba(0,0, 0,0.35) 0 5px 15px;
+}
+label{
+    display: block;
+}
+input, textarea{
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px transparent black;
+}
+textarea{
+    resize: none;
+    height: 6rem;
+}
+button{
+    display: inline-block;
+    width: 100%;
+    padding: 0.68rem 1.2rem;
+    font-size: 1.2rem;
+    background-color: #16a34a;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fe5825;
+}
+button:active{
+    transition: ;
+    translate: ;
+}
+
+@media screen and (min-width: 767px) {
+    .form{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 960px){
+    .form{
+        width: 40%;
+    }
+}
+
+
+
+
+
